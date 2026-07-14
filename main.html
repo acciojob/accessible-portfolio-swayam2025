@@ -8,46 +8,35 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table>
-		<tr>
-			<th>
-				Role
-			</th>
-			<th>
-				Tag
-			</th>
-		</tr>
-		<tr>
-			<td>
-				img
-			</td>
-			<td>img</td>
-		</tr>
-		<tr>
-			<td>
-				heading
-			</td>
-			<td>
-				h1
-			</td>
-		</tr>
-		<tr>
-			<td>
-				navigation
-			</td>
-			<td>
-				nav
-			</td>
-		</tr>
-		<tr>
-			<td>
-				list
-			</td>
-			<td>
-				ul
-			</td>
-		</tr>
-	</table>
+	 <h1 role="heading">My Portfolio</h1>
+
+    <nav role="navigation">
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <img
+            role="img"
+            src="https://via.placeholder.com/200"
+            alt="Profile Picture">
+        
+        <p>
+            Hello! I'm a web developer passionate about creating accessible
+            and user-friendly websites.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+        </ul>
+    </section>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
